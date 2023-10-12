@@ -1,7 +1,7 @@
 // @ts-check
 
 export const Header = () => {
-  return <></>
+  return <header>お試しのアプリ</header>
 }
 
 export default Header
