@@ -1,11 +1,11 @@
 // @ts-check
 
-export const BreedsSelect = ({ breeds, selectedBreed, handleChange }) => {
-  const options = Object.keys(breeds).map(item =>
+export const BreedsSelect = (props) => {
+  const options = Object.keys(props.breeds).map(item =>
     <option key={item} value={item}>{item}</option>
   );
 
-  return <select value={selectedBreed} onChange={handleChange}>{options}</select>
+  return <select value={props.selectedBreed} onChange={props.handleChange}>{options}</select>
 }
 
 export default BreedsSelect
