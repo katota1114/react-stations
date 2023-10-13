@@ -12,7 +12,7 @@ export const App = () => {
 
   return [
     <Header/>,
-    <DogListContainer />,
-    <Description/>
+    <Description/>,
+    <DogListContainer />
   ]
 }
